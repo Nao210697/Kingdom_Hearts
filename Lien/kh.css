@@ -1,0 +1,68 @@
+/*Bleu = #0c53ae
+Gris clair = #949495
+Gris foncé = #484843
+*/
+
+header {
+	font-family : "Gill Sans MT";
+}
+
+#titre {
+	font-family: "Kingdom Hearts";
+	color : white;
+	text-align: center;
+	font-size: 200px;
+	margin: 0px;
+	vertical-align: middle;
+	background-color : #484843;
+}
+
+/*liste*/
+#liste {
+	background-color: #949495;
+	padding: 5px 0px;
+}
+
+table {
+	border-spacing: 0px;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#liste td {
+padding: 5px;
+}
+
+#liste a {
+	text-decoration: none;
+	color: white;
+	padding: 5px 110px;
+    /*padding : haut, droite, bas, gauche;*/
+}
+
+table a:hover, 
+table a:focus,
+table a:active {
+		background: #0c53ae;
+}
+
+
+#liste  a[class="lien"]{
+	font-weight: bold;
+    background-color: white;
+	color: #0c53ae;
+}
+
+#image {
+	width:1000px;
+	height:200px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#image img {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
